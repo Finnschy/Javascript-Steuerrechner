@@ -1,18 +1,3 @@
-// Nettobetrag * 0.19 = Bruttobetrag
-// Bruttobetrag / 0.19 = Nettobetrag
-// Nettobetrag * 0,07 = Brutto
-// Brutto / 0,07 = Netto
-// Bruttobetrag – Nettobetrag = Mehrwertsteuerbetrag
-
-// steuer hinzufügen
-// mehrwertsteuerbetrag = brutto - input
-// brutto = input * 0.19
-
-// steuer abziehen 
-// 
-
- // steuer abziehen
-
 function steuerRechner() {
     event.preventDefault()
     let steuerSub = document.getElementById("steuerSub").checked
