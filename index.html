@@ -15,25 +15,25 @@
 
         <form action="">
             <p>Was soll berechnet werden?</p>
-            <input type="radio" name="steuer" id="steuerAdd" />
+            <input type="radio" name="steuer" id="steuerAdd" value="add" />
             <label for="steuerAdd">Mehrwertsteuer hinzufügen</label> <br>
-            <input type="radio" name="steuer" id="steuerSub" />
+            <input type="radio" name="steuer" id="steuerSub" value="sub" />
             <label for="steuerSub">Mehrwertsteuer abziehen</label>
         </form>
 
 
         <form action="">
             <p>Mehrwertsteuersatz</p>
-            <input type="radio" name="satz" id="neunzehn" />
+            <input type="radio" name="satz" id="neunzehn" value="19"/>
             <label for="neunzehn">19%</label>
-            <input type="radio" name="satz" id="sieben" />
+            <input type="radio" name="satz" id="sieben" value="7" />
             <label for="sieben">7%</label>
         </form>
 
         <form action="">
             <p>Nettobetrag (Preis ohne Mehrwertsteuer) in Euro</p>
             <input type="number" name="numInput" id="numInput" placeholder="50" /> <br>
-            <button onclick="">Berechnen</button>
+            <button onclick="steuerRechner()">Berechnen</button>
         </form>
         <hr>
 
