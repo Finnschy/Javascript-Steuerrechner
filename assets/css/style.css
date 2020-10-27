@@ -12,14 +12,13 @@
 body {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: end;
     box-sizing: border-box;
     background: #80ceff;
     height: 90vh;
 }
 
 h1 {
-    margin: 0;
     font-size: 4rem;
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
@@ -29,7 +28,6 @@ h1 {
 }
 
 .container {
-    align-self: flex-end;
     width: 25%;
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
