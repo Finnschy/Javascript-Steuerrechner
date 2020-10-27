@@ -1,0 +1,80 @@
+@font-face {
+    font-family: vg5000;
+    src: url(../fonts/VG5000-Regular.otf);
+  }
+
+:root {
+    --padding: 5% 10%;
+    font-family: vg5000;
+}
+
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    background: #80ceff;
+    height: 90vh;
+}
+
+h1 {
+    margin: 0;
+    font-size: 4rem;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+.container {
+    align-self: flex-end;
+    width: 25%;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    background: linear-gradient(145deg, #73b9e6, #89dcff);
+    box-shadow:  10px 10px 40px #6dafd9, 
+             -10px -10px 40px #93edff;
+}
+
+form {
+    padding: var(--padding);
+
+}
+
+#numInput {
+    border: none;
+    margin-bottom: 2.5%;
+    width: 100%;
+}
+
+button , ::placeholder {
+    font-family: vg5000;
+}
+
+button {
+    padding: 3% 0;
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    background: linear-gradient(145deg, #73b9e6, #89dcff);
+    box-shadow:  5px 5px 20px #6dafd9, -5px -5px 20px #93edff;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+
+button:active {
+    box-shadow:  inset 5px 5px 20px #6dafd9, 
+                inset -5px -5px 20px #93edff;
+}
+
+.ergebnis {
+    padding: var(--padding);
+}
